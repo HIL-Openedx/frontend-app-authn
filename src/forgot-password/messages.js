@@ -3,22 +3,22 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   'forgot.password.page.title': {
     id: 'forgot.password.page.title',
-    defaultMessage: 'Forgot Password | {siteName}',
+    defaultMessage: '重設密碼 | {siteName}',
     description: 'forgot password page title',
   },
   'forgot.password.page.heading': {
     id: 'forgot.password.page.heading',
-    defaultMessage: 'Reset password',
+    defaultMessage: '重設密碼',
     description: 'The page heading for the forgot password page.',
   },
   'forgot.password.page.instructions': {
     id: 'forgot.password.page.instructions',
-    defaultMessage: 'Please enter your email address below and we will send you an email with instructions on how to reset your password.',
+    defaultMessage: '輸入註冊所用的電郵以獲取重設密碼的郵件。',
     description: 'Instructions message for forgot password page.',
   },
   'forgot.password.page.invalid.email.message': {
     id: 'forgot.password.page.invalid.email.message',
-    defaultMessage: 'Enter a valid email address',
+    defaultMessage: '輸入正確電郵',
     description: 'Invalid email address message for input field.',
   },
   'forgot.password.page.email.field.label': {
@@ -33,12 +33,12 @@ const messages = defineMessages({
   },
   'forgot.password.error.alert.title': {
     id: 'forgot.password.error.alert.title.',
-    defaultMessage: 'We were unable to contact you.',
+    defaultMessage: '未能發送郵件',
     description: 'Failed to send password recovery email.',
   },
   'forgot.password.error.message.title': {
     id: 'forgot.password.error.message.title',
-    defaultMessage: 'An error occurred.',
+    defaultMessage: '發生錯誤',
     description: 'Title for message that appears when error occurs for password assistance page',
   },
   'forgot.password.request.in.progress.message': {
@@ -48,23 +48,23 @@ const messages = defineMessages({
   },
   'forgot.password.empty.email.field.error': {
     id: 'forgot.password.empty.email.field.error',
-    defaultMessage: 'Enter your email',
+    defaultMessage: '輸入電郵',
     description: 'Error message that appears when user tries to submit empty email field',
   },
   'forgot.password.email.help.text': {
     id: 'forgot.password.email.help.text',
-    defaultMessage: 'The email address you used to register with {platformName}',
+    defaultMessage: '輸入電郵',
     description: 'text help for the email',
   },
   // Confirmation Alert Message
   'confirmation.message.title': {
     id: 'confirmation.message.title',
-    defaultMessage: 'Check your email',
+    defaultMessage: '檢查電郵',
     description: 'Forgot password confirmation message title',
   },
   'confirmation.support.link': {
     id: 'confirmation.support.link',
-    defaultMessage: 'contact technical support',
+    defaultMessage: '請與我們聯絡',
     description: 'Technical support link text',
   },
   'need.help.sign.in.text': {

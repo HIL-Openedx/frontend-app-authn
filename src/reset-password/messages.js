@@ -3,54 +3,54 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   'sign.in': {
     id: 'sign.in',
-    defaultMessage: 'Sign in',
+    defaultMessage: '登入',
     description: 'Sign in toggle text',
   },
   'reset.password.page.title': {
     id: 'reset.password.page.title',
-    defaultMessage: 'Reset Password | {siteName}',
+    defaultMessage: '重設密碼 | {siteName}',
     description: 'page title',
   },
   'reset.password': {
     id: 'reset.password',
-    defaultMessage: 'Reset password',
+    defaultMessage: '重設密碼',
     description: 'The page heading and button text for reset password page.',
   },
   'reset.password.page.instructions': {
     id: 'reset.password.page.instructions',
-    defaultMessage: 'Enter and confirm your new password.',
+    defaultMessage: '輸入新密碼',
     description: 'Instructions message for reset password page.',
   },
   'new.password.label': {
     id: 'new.password.label',
-    defaultMessage: 'New password',
+    defaultMessage: '新密碼',
     description: 'New password field label for the reset password page.',
   },
   'confirm.password.label': {
     id: 'confirm.password.label',
-    defaultMessage: 'Confirm password',
+    defaultMessage: '確認新密碼',
     description: 'Confirm password field label for the reset password page.',
   },
   // validation errors
   'password.validation.message': {
     id: 'password.validation.message',
-    defaultMessage: 'Password criteria has not been met',
+    defaultMessage: '密碼不符條件',
     description: 'Error message for empty or invalid password',
   },
   'passwords.do.not.match': {
     id: 'passwords.do.not.match',
-    defaultMessage: 'Passwords do not match',
+    defaultMessage: '密碼不相同',
     description: 'Password format error.',
   },
   'confirm.your.password': {
     id: 'confirm.your.password',
-    defaultMessage: 'Confirm your password',
+    defaultMessage: '確認新密碼',
     description: 'Field validation message when confirm password is empty',
   },
   // alert banner strings
   'reset.password.failure.heading': {
     id: 'reset.password.failure.heading',
-    defaultMessage: 'We couldn\'t reset your password.',
+    defaultMessage: '重設不成功.',
     description: 'Heading for reset password request failure',
   },
   'reset.password.form.submission.error': {
@@ -65,12 +65,12 @@ const messages = defineMessages({
   },
   'reset.password.success.heading': {
     id: 'reset.password.success.heading',
-    defaultMessage: 'Password reset complete.',
+    defaultMessage: '重設成功',
     description: 'Heading for alert box when reset password is successful',
   },
   'reset.password.success': {
     id: 'reset.password.success',
-    defaultMessage: 'Your password has been reset. Sign in to your account.',
+    defaultMessage: '重設成功，可重新登入',
     description: 'Reset password success message',
   },
   'internal.server.error': {

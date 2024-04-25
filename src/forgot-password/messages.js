@@ -23,12 +23,12 @@ const messages = defineMessages({
   },
   'forgot.password.page.email.field.label': {
     id: 'forgot.password.page.email.field.label',
-    defaultMessage: 'Email',
+    defaultMessage: '電郵',
     description: 'Email field label for the forgot password page.',
   },
   'forgot.password.page.submit.button': {
     id: 'forgot.password.page.submit.button',
-    defaultMessage: 'Submit',
+    defaultMessage: '提交',
     description: 'Submit button text for the forgot password page.',
   },
   'forgot.password.error.alert.title': {
@@ -79,7 +79,7 @@ const messages = defineMessages({
   },
   'sign.in.text': {
     id: 'sign.in.text',
-    defaultMessage: 'Sign in',
+    defaultMessage: '登入',
     description: 'login page link on password page',
   },
   'extend.field.errors': {

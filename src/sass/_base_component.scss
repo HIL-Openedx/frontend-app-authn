@@ -6,7 +6,10 @@
 }
 .layout {
   display: flex;
-
+  
+  :first-child {
+    display:none;
+  }
   @include media-breakpoint-down('lg') {
     flex-direction: column;
     justify-content: center;
@@ -14,7 +17,7 @@
   }
 
   @include media-breakpoint-up('xl') {
-    justify-content: space-between;
+    justify-content: center;
   }
 }
 

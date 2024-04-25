@@ -6,8 +6,8 @@
 }
 .layout {
   display: flex;
-  
-  :first-child {
+
+  &>:first-child {
     display:none;
   }
   @include media-breakpoint-down('lg') {

@@ -10,12 +10,12 @@ const messages = defineMessages({
   // logistration strings
   'logistration.sign.in': {
     id: 'logistration.sign.in',
-    defaultMessage: 'Sign in',
+    defaultMessage: '登入',
     description: 'Text that appears on the tab to switch between login and register',
   },
   'logistration.register': {
     id: 'logistration.register',
-    defaultMessage: 'Register',
+    defaultMessage: ' ',
     description: 'Text that appears on the tab to switch between login and register',
   },
   // enterprise sso strings

@@ -9,22 +9,22 @@ const messages = defineMessages({
   // Login labels
   'login.user.identity.label': {
     id: 'login.user.identity.label',
-    defaultMessage: 'Username or email',
+    defaultMessage: '電郵或用戶名',
     description: 'Label for user identity field to enter either username or email to login',
   },
   'login.password.label': {
     id: 'login.password.label',
-    defaultMessage: 'Password',
+    defaultMessage: '密碼',
     description: 'Label for password field',
   },
   'sign.in.button': {
     id: 'sign.in.button',
-    defaultMessage: 'Sign in',
+    defaultMessage: '登入',
     description: 'Sign in button label that appears on login page',
   },
   'forgot.password': {
     id: 'forgot.password',
-    defaultMessage: 'Forgot password',
+    defaultMessage: '忘記密碼',
     description: 'Button text for forgot password',
   },
   'institution.login.button': {

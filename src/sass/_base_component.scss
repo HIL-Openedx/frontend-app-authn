@@ -3,6 +3,10 @@
   background-image:url(https://hanlunls.com/images/bg_header200.jpg);
   padding:1em 0;
   text-align:center;
+  a {
+    font-size:2em; font-weight:bold;
+    color:white;
+  }
 }
 .layout {
   display: flex;

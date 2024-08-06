@@ -40,9 +40,7 @@ const BaseContainer = ({ children, showWelcomeBanner, fullName }) => {
   return (
     <>
       <div className="logo-bar">
-        <a href="https://hanlunls.com">
-          <img src="https://hanlunls.com/images/logo-02.png" />
-        </a>
+        <a href="https://hanlunls.com">興倫電子學習系統</a>
       </div>
       <div className="layout">
         <MediaQuery maxWidth={breakpoints.small.maxWidth - 1}>

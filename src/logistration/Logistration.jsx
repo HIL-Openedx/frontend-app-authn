@@ -103,7 +103,7 @@ const Logistration = (props) => {
         <h2 style='font-size: 1.5em;'>興倫高中數理 e-學習資源庫</h2>
         <h3 style='font-weight: normal;font-size: 1.05em;'>數學、物理、化學、生物 240 個模組</h3>
         <strong style='display: block;font-size: 2em;margin: 0.25em 0;'>免費瀏覽</strong>
-        <a href='https://www.hanlunelr.com' class='btn btn-brand login-button-width'>進入</a>
+        <a href='https://www.hanlunelr.com' className='btn btn-brand login-button-width'>進入</a>
       </div>
       <div style='background: hsl(324, 40%, 90%);padding: 1em;border-radius: .5em;'>
         {disablePublicAccountCreation

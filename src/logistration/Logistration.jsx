@@ -9,6 +9,7 @@ import {
   Icon,
   Tab,
   Tabs,
+  StatefulButton,
 } from '@openedx/paragon';
 import { ChevronLeft } from '@openedx/paragon/icons';
 import PropTypes from 'prop-types';
@@ -98,6 +99,12 @@ const Logistration = (props) => {
 
   return (
     <BaseContainer>
+      <div>
+        <h2>興倫高中數理 e-學習資源庫</h2>
+        <p>數學、物理、化學、生物 240 個模組</p>
+        <strong>免費瀏覽</strong>
+        <StatefulButton onClick="location.href='https://www.hanlunelr.com'"/>
+      </div>
       <div>
         {disablePublicAccountCreation
           ? (

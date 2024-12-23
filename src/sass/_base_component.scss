@@ -26,15 +26,15 @@
 }
 
 .content {
-  margin-top: 4rem;
-}
-
-.content {
   @include media-breakpoint-up('xl') {
     display: flex;
-    justify-content: center;
-    width: 50vw;
+    justify-content: space-between;
+    width:min(62rem,80vw);
   }
+}
+.content>* {
+  min-width:29rem;
+  margin:2em auto;
 }
 
 .logo-small {

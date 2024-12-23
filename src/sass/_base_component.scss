@@ -34,7 +34,15 @@
 }
 .content>* {
   min-width:29rem;
-  margin:2em auto;
+  margin:2em auto; padding:1em;
+  background: hsl(324, 40%, 90%);
+  border-radius: .5em;
+}
+
+#elr {
+  h2 {font-size:1.5em;}
+  h3 {font-weight: normal;font-size: 1.05em;}
+  strong {display: block;font-size: 2em;margin: 0.25em 0;}
 }
 
 .logo-small {
